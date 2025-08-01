@@ -489,13 +489,6 @@ ninja.data = [{
           window.open("https://github.com/kubershahi", "_blank");
         },
       },{
-        id: 'social-kaggle',
-        title: 'Kaggle',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.kaggle.com/kubershahi", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
