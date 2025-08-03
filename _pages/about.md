@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: profile_pic_cropped.png
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     Email: kshahi[at]ucsd[dot]edu
 
@@ -24,10 +24,9 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I'm a second-year Master's student in Computer Science at [UC San Diego](https://cse.ucsd.edu/), specializing in Artificial Intelligence. My current research focuses on LLM-based agents for complex tasks, especially improving multi-step reasoning and constraint handling. My broader research interests include Embodied AI, reinforcement learning, NLP, and their applications in healthcare and beyond.
 
-I am a second-year Master's student in Computer Science at [UC San Diego](https://cse.ucsd.edu/), specializing in Artificial Intelligence. I am currently researching LLM-based agents for complex tasks, with a focus on improving multi-step reasoning and constraint handling. I am especially interested in how LLMs can reason, plan, and make decisions more effectively. My broader research interests span Embodied AI, reinforcement learning, NLP, and their applications in healthcare and beyond.
-
-Before grad school, I worked as a Data Scientist at [Vayana Network](https://vayana.com/). I built scalable ETL pipelines that helped streamline financial data processing. I also developed a graph-based business network analysis tool that helped the sales team identify high-value leads more efficiently. One of my favorite projects there was designing an NLP system that could resolve duplicate company records across various data sources, making our analytics workflows much more reliable. I also led the development of a reporting system using Apache Superset, which gave leadership better visibility into business metrics.
+Before grad school, I worked as a Data Scientist at [Vayana Network](https://vayana.com/), where I built scalable ETL pipelines, developed graph-based tools to uncover customer insights, and led NLP systems for deduplication of company records. I also built an internal reporting platform using Apache Superset to improve access to business metrics across teams.
 
 I earned my Bachelor's in Computer Science with a minor in Physics from [Ashoka University](https://www.ashoka.edu.in/). During my time there, I had the opportunity to explore research in privacy-preserving machine learning and applied cryptography with Professors [Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home) and [Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/). I worked on topics like secure neural network training, adversarial attacks on ML models, and privacy vulnerabilities in encrypted email systems.
 
