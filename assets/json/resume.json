@@ -32,29 +32,46 @@
       "startDate": "2024-09-01",
       "endDate": "Present",
       "score": "4.0",
-      "courses": ["Software Engineering, Statistical NLP, Algorithms and Design Analysis, Data Systems of ML, Machine Learning for Robotics, Medical Image Computing"]
+      "courses": [
+        "Software Engineering, Statistical NLP, Algorithm Design and Analysis, Data Systems of ML, Machine Learning for Robotics, Medical Image Computing"
+      ]
     },
     {
       "institution": "Ashoka University",
-      "location": "Sonipat, Haryana",
+      "location": "Sonipat, India",
       "url": "https://www.ashoka.edu.in/",
       "area": "Computer Science and Physics",
       "studyType": "Postgraduate Diploma",
       "startDate": "2021-06-15",
       "endDate": "2022-05-15",
       "score": "3.8",
-      "courses": []
+      "courses": [
+        "Capstone Project in PPML",
+        "Advanced Machine Learning",
+        "Advanced Algorithms",
+        "Database Management Systems",
+        "Blockchain and Curriencies"
+      ]
     },
     {
       "institution": "Ashoka University",
-      "location": "Sonipat, Haryana",
+      "location": "Sonipat, India",
       "url": "https://www.ashoka.edu.in/",
       "area": "Computer Science",
       "studyType": "Bachelor's",
-      "startDate": "2028-06-15",
+      "startDate": "2018-06-15",
       "endDate": "2021-05-15",
       "score": "3.8",
-      "courses": []
+      "courses": [
+        "Intro to Machine Learning",
+        "Advanced Programming",
+        "Algorithm Design and Analysis",
+        "Distributed Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Computer Security and Privacy",
+        "Theory of Computation"
+      ]
     }
   ],
   "work": [
