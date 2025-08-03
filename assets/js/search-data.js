@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -369,16 +369,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-from-ashoka-university-with-a-postgraduate-diploma-and-a-bachelor-s-degree-in-computer-science-along-with-a-minor-in-physics-excited-to-start-my-first-full-time-role-as-a-data-scientist-at-vayana-network-next-month",
+          title: 'Graduated from Ashoka University with a Postgraduate Diploma and a Bachelor’s Degree in...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-wrapped-up-two-wonderful-years-at-vayana-network-where-i-gained-invaluable-experience-and-growth-as-a-data-scientist",
+          title: 'Wrapped up two wonderful years at Vayana Network 🎉, where I gained invaluable...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-my-master-s-in-computer-science-at-uc-san-diego-this-fall-excited-to-explore-new-challenges-in-ai",
+          title: 'Started my Master’s in Computer Science at UC San Diego 🎓 this fall....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
