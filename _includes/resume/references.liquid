@@ -11,19 +11,25 @@
             {% else %}
               <td class="list-group-category-icon"></td>
             {% endif %}
-            <!-- Calculate colspan number for category title -->
-            {% assign i = 1 %}
-            {% for item in content.items %}
-              {% assign i = i | plus: 1 %}
-            {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
+            <td class="list-group-category">{{ content.name }}</td>
           </tr>
-          <tr>
-            <td></td>
-            <td class="list-group-name">
-              <b>{{ content.reference }}</b>
-            </td>
-          </tr>
+          {% if content.contact %}
+            <tr>
+              <td></td>
+              <td class="list-group-name">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:{{ content.contact }}">{{ content.contact }}</a>
+              </td>
+            </tr>
+          {% endif %}
+          {% if content.reference %}
+            <tr>
+              <td></td>
+              <td class="list-group-name">
+                <small class="text-muted">{{ content.reference }}</small>
+              </td>
+            </tr>
+          {% endif %}
         </tbody>
       </table>
     </div>
