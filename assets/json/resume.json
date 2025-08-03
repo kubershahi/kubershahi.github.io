@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "work experience": [
+  "work": [
     {
       "name": "Vayana Network",
       "position": "Data Scientist",
@@ -87,7 +87,7 @@
       "highlights": []
     }
   ],
-  "research experience": [
+  "research": [
     {
       "name": "Ashoka University",
       "position": "Capstone Project in PPML",
@@ -177,19 +177,19 @@
       "name": "Sudarshan Rajan",
       "icon": "fa-solid fa-briefcase",
       "contact": "sudarshan@vayana.com",
-      "reference": "Senior Team Member during my tenure at Vayana Network."
+      "description": "Senior Team Member during my tenure at Vayana Network."
     },
     {
       "name": "Professor Mahavir Jhawar",
       "icon": "fa-solid fa-user-graduate",
       "contact": "mahavir.jhawar@ashoka.edu.in",
-      "reference": "Associate Professor, Computer Science Department, Ashoka University. Supervised my capstone project in privacy-preserving machine learning and collaborated with me on several research projects. Also served as my instructor for multiple courses."
+      "description": "Associate Professor, Computer Science Department, Ashoka University. Supervised my capstone project in privacy-preserving machine learning and collaborated with me on several research projects. Also served as my instructor for multiple courses."
     },
     {
       "name": "Professor Debayan Gupta",
       "icon": "fa-solid fa-user-graduate",
       "contact": "debayan.gupta@ashoka.edu.in",
-      "reference": "Assistant Professor, Computer Science Department, Ashoka University. Academic advisor. Supervised my capstone project in privacy-preserving machine learning and collaborated with me on several research projects. Also served as my instructor for multiple courses."
+      "description": "Assistant Professor, Computer Science Department, Ashoka University. Academic advisor. Supervised my capstone project in privacy-preserving machine learning and collaborated with me on several research projects. Also served as my instructor for multiple courses."
     }
   ]
 }
