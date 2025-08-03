@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic_cropped.png
   image_circular: true # crops the image to make it circular
   more_info: >
     Email: kshahi[at]ucsd[dot]edu
