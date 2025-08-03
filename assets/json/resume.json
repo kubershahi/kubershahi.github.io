@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Kuber Shahi",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kshahi@ucsd.edu",
+    "phone": "",
+    "url": "https://kubershahi.github.io/",
+    "summary": "Computer Science graduate student at UC San Diego with 2+ years of experience in machine learning, data science, and software engineering, focused on designing and developing practical, robust solutions.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
