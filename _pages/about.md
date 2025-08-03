@@ -25,8 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second-year Master's student in Computer Science at [UC San Diego](https://cse.ucsd.edu/), specializing in Artificial Intelligence. I am currently researching LLM-based agents for complex tasks, with a focus on improving multi-step reasoning and constraint handling. I am especially interested in how LLMs can reason, plan, and make decisions more effectively. My broader research interests span Embodied AI, reinforcement learning, NLP, and their applications in healthcare and beyond.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before grad school, I worked as a Data Scientist at [Vayana Network](https://vayana.com/). I built scalable ETL pipelines that helped streamline financial data processing. I also developed a graph-based business network analysis tool that helped the sales team identify high-value leads more efficiently. One of my favorite projects there was designing an NLP system that could resolve duplicate company records across various data sources, making our analytics workflows much more reliable. I also led the development of a reporting system using Apache Superset, which gave leadership better visibility into business metrics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I earned my Bachelor's in Computer Science with a minor in Physics from [Ashoka University](https://www.ashoka.edu.in/). During my time there, I had the opportunity to explore research in privacy-preserving machine learning and applied cryptography with Professors [Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home) and [Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/). I worked on topics like secure neural network training, adversarial attacks on ML models, and privacy vulnerabilities in encrypted email systems.
+
+Along the way, I've explored projects in abstractive text summarization, one-shot learning, and full-stack web development. I enjoy working on problems that require both creativity and technical depth, especially where real-world impact is involved.
+
+Outside of work and research, I enjoy watching science fiction, mystery, and thriller films. I'm a big football fan and follow cricket and Formula 1 when I can. I also like to swim and run whenever I get the chance.
