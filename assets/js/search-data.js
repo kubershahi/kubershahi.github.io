@@ -369,10 +369,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-wrapped-up-two-wonderful-years-at-vayana-network-where-i-gained-invaluable-experience-and-growth-as-a-data-scientist",
-          title: 'Wrapped up two wonderful years at Vayana Network 🎉, where I gained invaluable...',
+            },},{id: "news-graduated-from-ashoka-university-with-a-postgraduate-diploma-and-a-bachelor-s-degree-in-computer-science-along-with-a-minor-in-physics-excited-to-start-my-first-full-time-role-as-a-data-scientist-at-vayana-network-next-month",
+          title: 'Graduated from Ashoka University with a Postgraduate Diploma and a Bachelor’s Degree in...',
           description: "",
-          section: "News",},{id: "news-wrapped-up-two-wonderful-years-at-vayana-network-where-i-gained-invaluable-experience-and-growth-as-a-data-scientist-graduated-from-ashoka-university-with-a-postgraduate-diploma-and-a-bachelor-s-degree-in-computer-science-along-with-a-minor-in-physics-excited-to-start-my-first-full-time-role-as-a-data-scientist-at-vayana-network-next-month",
+          section: "News",},{id: "news-wrapped-up-two-wonderful-years-at-vayana-network-where-i-gained-invaluable-experience-and-growth-as-a-data-scientist",
           title: 'Wrapped up two wonderful years at Vayana Network 🎉, where I gained invaluable...',
           description: "",
           section: "News",},{id: "news-started-my-master-s-in-computer-science-at-uc-san-diego-this-fall-excited-to-explore-new-challenges-in-ai",
