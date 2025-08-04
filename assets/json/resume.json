@@ -57,7 +57,13 @@
       "startDate": "2022-06-01",
       "endDate": "2024-05-03",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Optimized financial data processing by developing efficient, scalable ETL pipelines with PySpark on AWS, reducing processing time by 20% and enhancing data reliability for analytics workflows.",
+        "Engineered a graph-based Business Network Analysis platform for the sales team, leveraging clustering algorithms to identify high-value potential customers, resulting in a 15% increase in business growth.",
+        "Collaborated across teams to design and deploy a Management Information System (MIS) with Apache Superset, enhancing reporting, decision-making, and operational efficiency by 15%.",
+        "Spearheaded the development of an NLP-driven PAN Resolution System to resolve duplicate company records across multiple data sources, improving data accuracy and reporting capabilities by 30%.",
+        "Modeled proofs-of-concept to evaluate new technologies and solutions while supporting ad-hoc data analysis, enhancing team decision-making and operational agility."
+      ]
     },
     {
       "name": "Ashoka University Resident Assistants",
@@ -66,7 +72,10 @@
       "startDate": "2021-08-15",
       "endDate": "2022-05-15",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Managed a residence floor of 70 residents by assisting them with their academic, personal, and logistical issues on/off campus.",
+        "Created a safe, healthy, and comfortable learning environment on the floor by organizing team-building and wellness events for the residents."
+      ]
     },
     {
       "name": "Ageless Partners",
@@ -75,7 +84,10 @@
       "startDate": "2021-11-01",
       "endDate": "2022-03-31",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Formulated a roadmap for a fitness recommendation system using wearable devices and led 3 co-interns to complete the first milestone, boosting user engagement and retention by 20%",
+        "Conducted data analysis and visualization using Python and Plotly, supporting the research team’s de-aging investigation and achieving a 15% improvement in user recommendations and insights."
+      ]
     },
     {
       "name": "Techvik Blog",
@@ -84,10 +96,24 @@
       "startDate": "2020-06-01",
       "endDate": "2022-09-30",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Redesigned and remodeled the platform’s website on WIX, increasing the user traffic by up to 20 %.",
+        "Optimized the website’s load time and increased its SEO performance by 30 % through media optimization and extensive keyword tagging."
+      ]
     }
   ],
   "research": [
+    {
+      "name": "University of California San Diego",
+      "position": "Graduate Student Researcher",
+      "url": "https://www.ucsd.edu/",
+      "startDate": "2025-06-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Investigating planning methods for LLM-based travel planning agents, with a focus on evaluating external planner integration for improving multi-step reasoning and constraint handling"
+      ]
+    },
     {
       "name": "Ashoka University",
       "position": "Capstone Project in PPML",
@@ -95,7 +121,10 @@
       "startDate": "2021-08-01",
       "endDate": "2021-12-31",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Researched secure multi-party computation (MPC) techniques to enable privacy-preserving neural network training across distributed systems.",
+        "Implemented [SecureNN](https://www.semanticscholar.org/paper/SecureNN%3A-Efficient-and-Private-Neural-Network-Wagh-Gupta/2886c81bc3f71b3a9945c8825bbdb4405947a717) protocols in C++ and analyzed their effectiveness in ensuring data privacy and computational efficiency for real-world, data-sensitive applications."
+      ]
     },
     {
       "name": "Mphasis Lab, Ashoka University",
@@ -104,7 +133,10 @@
       "startDate": "2021-05-01",
       "endDate": "2021-08-31",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Researched and implemented Privacy-Preserving Machine Learning (PPML) protocols such as SecureML and BLAZE in C++, evaluating each protocol’s efficiency and security for sensitive datasets.",
+        "Co-led the development of a secure, optimized PPML protocol for business-specific needs under Prof. Mahavir Jhawar’s guidance, improving the protocol’s reliability and applicability for real-world solutions."
+      ]
     }
   ],
   "certificates": [
