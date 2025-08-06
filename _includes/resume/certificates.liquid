@@ -1,4 +1,4 @@
-<div class="list-groups">
+<div class="list-groups row">
   {% assign certificates = data[1] | sort: 'date' | reverse %}
   {% for content in certificates %}
     {% assign remainder = forloop.index | modulo: 2 %}
