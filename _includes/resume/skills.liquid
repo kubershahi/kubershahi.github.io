@@ -1,26 +1,26 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<div class="list-groups">
   {% for content in data[1] %}
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-auto text-center" style="padding-right: 5px;">
-          {% if content.icon %}
-            <i class="{{ content.icon }}" style="color: var(--global-theme-color);"></i>
-          {% endif %}
-        </div>
-        <div class="col-3">
-          <h6 class="title font-weight-bold" style="color: var(--global-theme-color); margin-bottom: 0;">
-            {{ content.name }}
-          </h6>
-        </div>
-        <div class="col">
-          <p style="word-wrap: break-word; overflow-wrap: break-word; font-size: 0.95rem; margin-bottom: 0;">
-            {% for item in content.keywords %}
-              {{ item -}}
-              {%- unless forloop.last %}, {% endunless %}
-            {% endfor %}
-          </p>
-        </div>
-      </div>
-    </li>
+    <div class="list-group col-md-12">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            {% if content.icon %}
+              <td class="list-group-category-icon" style="width: 30px;">
+                <i class="{{ content.icon }}"></i>
+              </td>
+            {% else %}
+              <td class="list-group-category-icon" style="width: 30px;"></td>
+            {% endif %}
+            <td class="list-group-category" style="width: 200px;">{{ content.name }}</td>
+            <td class="list-group-name" style="word-wrap: break-word; overflow-wrap: break-word;">
+              {% for item in content.keywords %}
+                {{ item -}}
+                {%- unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   {% endfor %}
-</ul>
+</div>
