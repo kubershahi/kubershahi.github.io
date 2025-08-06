@@ -49,7 +49,9 @@
           <ul class="items">
             {% for item in content.highlights %}
               <li>
-                <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+                <span class="item" style="text-align: justify; display: block;">
+                  {{- item | markdownify | remove: '<p>' | remove: '</p>' | strip -}}
+                </span>
               </li>
             {% endfor %}
           </ul>
