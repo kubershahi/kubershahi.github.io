@@ -1,33 +1,24 @@
-<div class="list-groups">
+<ul class="card-text font-weight-light list-group list-group-flush">
   {% for content in data[1] %}
-    <div class="list-group col-md-6" title="{{ content.level }}">
-      <table class="table-cv list-group-table">
-        <tbody>
-          <tr>
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3 text-left">
+          <h6 class="title font-weight-bold">
             {% if content.icon %}
-              <td class="list-group-category-icon">
-                <i class="{{ content.icon }}"></i>
-              </td>
-            {% else %}
-              <td class="list-group-category-icon"></td>
+              <i class="{{ content.icon }}"></i>
             {% endif %}
-            <!-- Calculate colspan number for category title -->
-            {% assign i = 1 %}
-            {% for item in content.items %}
-              {% assign i = i | plus: 1 %}
+            {{ content.name }}
+          </h6>
+        </div>
+        <div class="col-xs-9 col-sm-9 col-md-9">
+          <p class="skills-list" style="word-wrap: break-word; overflow-wrap: break-word;">
+            {% for item in content.keywords %}
+              {{ item -}}
+              {%- unless forloop.last %}, {% endunless %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
-          </tr>
-          {% for item in content.keywords %}
-            <tr>
-              <td></td>
-              <td class="list-group-name">
-                <b>{{ item }}</b>
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+          </p>
+        </div>
+      </div>
+    </li>
   {% endfor %}
-</div>
+</ul>
