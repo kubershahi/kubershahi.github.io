@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my Master's in Computer Science at UC San Diego 🎓 this fall. Excited to explore new challenges in AI !!! 🚀
+Started my Master's in Computer Science at UC San Diego 🎓 this fall. Excited to explore new challenges in AI!!! 🚀
