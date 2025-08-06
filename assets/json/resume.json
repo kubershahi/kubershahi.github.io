@@ -161,9 +161,36 @@
       "endDate": "2021-05-31",
       "summary": "",
       "highlights": [
-        "Advisors: [Professor Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home)",
+        "Advisor: [Professor Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home)",
         "Examined and evaluated the security vulnerabilities in email clients that support the two primary forms of end-to-end email encryption: OpenPGP and S/MIME.",
         "Illustrated the attacks on various email clients outlined in the [Mailto: Me Your Secrets](https://arxiv.org/abs/2006.14026) paper and suggested countermeasures against them."
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "institution": "CS Department, Ashoka University",
+      "location": "",
+      "position": "Teaching Assistant",
+      "url": "https://www.ashoka.edu.in/",
+      "startDate": "2020-08-01",
+      "endDate": "2021-05-31",
+      "summary": "",
+      "highlights": [
+        "**Discrete Mathematics (CS-1104)**, Spring 2021, Prof. Subash Bhalla, Class Size: 100. Tasks: holding weekly office hours, setting and grading assignments and test papers, and facilitating online lectures.",
+        "**Probability & Statistics (CS-1208)**, Monsoon 2020, Prof. Mahavir Jhawar, Class Size: 80. Tasks: holding weekly office hours, grading assignments and test papers, and facilitating online lectures."
+      ]
+    },
+    {
+      "institution": "Maa Anandmayee Memorial School",
+      "location": "",
+      "position": "STEM Facilitator",
+      "url": "https://mams.co.in/",
+      "startDate": "2019-06-01",
+      "endDate": "2019-07-31",
+      "summary": "",
+      "highlights": [
+        "Partnered with MakersBox Delhi to establish a STEM lab at the school by leading equipment selection, procurement, and setup while teaching students hands-on projects in cutting-edge technologies like Robotics, IoT, VR, and Lego."
       ]
     }
   ],
@@ -261,7 +288,7 @@
   "volunteer": [
     {
       "organization": "Office of Learning Support (OLS), Ashoka University",
-      "location": "Sonipat, India",
+      "location": "",
       "position": "Peer Mentor",
       "url": "https://www.ashoka.edu.in/ols-programmes/",
       "startDate": "2021-01-15",
@@ -274,7 +301,7 @@
     },
     {
       "organization": "IT Team, Ashoka University Election Commission 2020",
-      "location": "Sonipat, India",
+      "location": "",
       "position": "IT Support",
       "url": "https://www.ashoka.edu.in/student-government/",
       "startDate": "2020-02-01",
