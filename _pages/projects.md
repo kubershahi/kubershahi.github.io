@@ -3,6 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: "A portfolio of my projects, featuring work from personal interests, academic studies, and professional experiences."
+nav: true
 nav_order: 2
 display_categories: [Machine Learning, Data Science, Software Engineering, work, fun]
 horizontal: false

@@ -55,7 +55,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1000px
+max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -265,7 +265,7 @@ display_categories: ["tech-insights", "research", "coursework", "tutorials", "pe
 
 scholar:
   last_name: [Shahi]
-  first_name: [Kuber, K.]
+  first_name: [Kuber]
 
   style: apa
   locale: en
