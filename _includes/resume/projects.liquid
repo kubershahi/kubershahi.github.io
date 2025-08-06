@@ -7,11 +7,15 @@
             {% assign startDate = content.startDate | date: '%b %Y' %}
             {% if content.endDate == 'Present' %}
               {% assign endDate = 'Present' %}
+              {% assign date = startDate | append: ' - ' | append: endDate %}
             {% else %}
               {% assign endDate = content.endDate | date: '%b %Y' %}
+              {% if startDate == endDate %}
+                {% assign date = startDate %}
+              {% else %}
+                {% assign date = startDate | append: ' - ' | append: endDate %}
+              {% endif %}
             {% endif %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
