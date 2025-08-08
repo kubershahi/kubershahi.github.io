@@ -40,9 +40,9 @@ There are millions of Maithili speakers who deserve access to the same language 
 
 ## Links
 
-- [**GitHub Repository**](https://github.com/kubershahi/eng2mai-translation)
+- [GitHub Repository](https://github.com/kubershahi/eng2mai-translation)
 
-- [**Working Report**](https://github.com/kubershahi/eng2mai-translation/blob/main/report.pdf)
+- [Working Report](https://github.com/kubershahi/eng2mai-translation/blob/main/report.pdf)
 
 - **HuggingFace Models:**
   - [Finetuned Model](https://huggingface.co/kubershahi/Helsinki-NLP-opus-mt-eng-mai-epoch5)
