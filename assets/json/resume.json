@@ -58,10 +58,10 @@
       "endDate": "2024-05-03",
       "summary": "",
       "highlights": [
-        "Optimized financial data processing by developing efficient, scalable ETL pipelines with PySpark on AWS, reducing processing time by 20% and enhancing data reliability for analytics workflows.",
-        "Engineered a graph-based Business Network Analysis platform for the sales team, leveraging clustering algorithms to identify high-value potential customers, resulting in a 15% increase in business growth.",
-        "Collaborated across teams to design and deploy a Management Information System (MIS) with Apache Superset, enhancing reporting, decision-making, and operational efficiency by 15%.",
-        "Spearheaded the development of an NLP-driven PAN Resolution System to resolve duplicate company records across multiple data sources, improving data accuracy and reporting capabilities by 30%.",
+        "Optimized financial data processing by developing efficient, scalable ETL pipelines with PySpark on AWS, reducing processing time by 20 % and enhancing data reliability for analytics workflows.",
+        "Engineered a graph-based Business Network Analysis platform for the sales team, leveraging clustering algorithms to identify high-value potential customers, resulting in a 15 % increase in business growth.",
+        "Collaborated across teams to design and deploy a Management Information System (MIS) with Apache Superset, enhancing reporting, decision-making, and operational efficiency by 15 %.",
+        "Spearheaded the development of an NLP-driven PAN Resolution System to resolve duplicate company records across multiple data sources, improving data accuracy and reporting capabilities by 30 %.",
         "Modeled proofs-of-concept to evaluate new technologies and solutions while supporting ad-hoc data analysis, enhancing team decision-making and operational agility."
       ]
     },
@@ -85,8 +85,8 @@
       "endDate": "2022-03-31",
       "summary": "",
       "highlights": [
-        "Formulated a roadmap for a fitness recommendation system using wearable devices and led 3 co-interns to complete the first milestone, boosting user engagement and retention by 20%",
-        "Conducted data analysis and visualization using Python and Plotly, supporting the research team’s de-aging investigation and achieving a 15% improvement in user recommendations and insights."
+        "Formulated a roadmap for a fitness recommendation system using wearable devices and led 3 co-interns to complete the first milestone, boosting user engagement and retention by 20 %",
+        "Conducted data analysis and visualization using Python and Plotly, supporting the research team’s de-aging investigation and achieving a 15 % improvement in user recommendations and insights."
       ]
     },
     {
