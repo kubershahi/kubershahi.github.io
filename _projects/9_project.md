@@ -1,80 +1,49 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
+title: Efficient English-Maithili Translation
+description: A lightweight translation model for the Maithili language using efficient fine-tuning techniques
 img: assets/img/6.jpg
 importance: 4
-category: fun
+category: machine learning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I'm currently working on developing a lightweight translation model for English-Maithili translation. Maithili is spoken by over 34 million people, yet there's a serious lack of good language technology support for it. My goal is to build an efficient model that doesn't compromise on accuracy while being practical enough to integrate into real web applications.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Technical Approach
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Model Development
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Base Model**: I started with existing pre-trained multilingual models as my foundation
+- **Fine-Tuning Strategy**: I'm experimenting with both LoRA (Low-Rank Adaptation) and traditional whole model fine-tuning to see what works best
+- **Optimization**: The main challenge is getting good accuracy when working with limited training data
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### What I'm Tackling
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Limited Training Data**: Finding quality English-Maithili parallel text is tough, so I'm making the most of what's available
+- **Computational Constraints**: I need this to be efficient enough to actually deploy, not just a research prototype
+- **Language Nuances**: English and Maithili have very different structures, so I'm spending time understanding these linguistic differences
 
-{% raw %}
+## Progress So Far
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+I've managed to develop a preliminary model that shows promise:
 
-{% endraw %}
+- It's performing surprisingly well compared to much larger models
+- The computational requirements are reasonable for deployment
+- LoRA is proving to be a really effective approach for this low-resource language scenario
+- This work is laying the groundwork for better Maithili language technology down the road
+
+## Why This Matters
+
+There are millions of Maithili speakers who deserve access to the same language technologies that English speakers take for granted. This project is my small contribution toward making machine translation more inclusive and accessible for underrepresented language communities.
+
+## Links
+
+- [**GitHub Repository**](https://github.com/kubershahi/eng2mai-translation)
+
+- [**Working Report**](https://github.com/kubershahi/eng2mai-translation/blob/main/report.pdf)
+
+- **HuggingFace Models:**
+  - [Finetuned Model](https://huggingface.co/kubershahi/Helsinki-NLP-opus-mt-eng-mai-epoch5)
+  - [LoRA Finetuned Model](https://huggingface.co/kubershahi/Helsinki-NLP-opus-mt-eng-mai-lora-epoch2)
