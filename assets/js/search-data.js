@@ -378,26 +378,16 @@ ninja.data = [{
           section: "News",},{id: "news-started-my-master-s-in-computer-science-at-uc-san-diego-this-fall-excited-to-explore-new-challenges-in-ai",
           title: 'Started my Master’s in Computer Science at UC San Diego 🎓 this fall....',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-age-and-gender-detection",
+          section: "News",},{id: "projects-age-and-gender-detection",
           title: 'Age and Gender Detection',
           description: "CNN models for age and gender classification in facial images using deep learning optimization techniques.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/age-gender-detection/";
+            },},{id: "projects-acert-academic-credential-verification",
+          title: 'aCERT - Academic Credential Verification',
+          description: "A React-based web application for secure academic credential verification using blockchain technology",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/certificate-verification/";
             },},{id: "projects-synthesizing-dfas-using-rnns",
           title: 'Synthesizing DFAs using RNNs',
           description: "RNN-based model to automate the synthesis of Deterministic Finite Automata for formal language representation.",
@@ -408,6 +398,11 @@ ninja.data = [{
           description: "A lightweight translation model for the Maithili language using efficient fine-tuning techniques",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eng2mai-translation/";
+            },},{id: "projects-gamified-kanban-board",
+          title: 'Gamified Kanban Board',
+          description: "A collaborative task management system with reward-based incentives and automated CI/CD workflows",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gamified-kanban/";
             },},{id: "projects-headline-generation",
           title: 'Headline Generation',
           description: "Fine-tuned Google&#39;s Pegasus LLM for generating concise and accurate headlines from news articles.",
