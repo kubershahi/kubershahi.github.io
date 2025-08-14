@@ -2,7 +2,7 @@
 layout: page
 title: Age and Gender Detection
 description: CNN models for age and gender classification in facial images using deep learning optimization techniques.
-img: assets/img/12.jpg
+img: assets/img/age-gender-detection.png
 importance: 3
 category: Machine Learning
 ---
