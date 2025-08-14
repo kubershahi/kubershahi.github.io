@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: Computer Science Graduate Student at UC San Diego
 
 profile:
   align: right
