@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a second-year Master's student in Computer Science at [UC San Diego](https://cse.ucsd.edu/), specializing in Artificial Intelligence. My current research focuses on LLM-based agents for complex tasks, especially improving multi-step reasoning and constraint handling. My broader research interests span Embodied AI, reinforcement learning, NLP, and their applications in healthcare and beyond.
+I'm a second-year Master's student in Computer Science at [UC San Diego](https://cse.ucsd.edu/), specializing in Artificial Intelligence. My current research focuses on LLM-based agents for complex tasks, especially improving multi-step reasoning and constraint handling. My broader research interests include natural language processing, multi-modal and LLM-based reasoning, and agentic/embodied AI, with applications in healthcare and beyond.
 
 Before grad school, I worked as a Data Scientist at [Vayana Network](https://vayana.com/), where I built scalable ETL pipelines, developed graph-based tools to uncover customer insights, and led NLP systems for deduplication of company records. I also built an internal reporting platform using Apache Superset to improve access to business metrics across teams.
 
