@@ -378,7 +378,12 @@ ninja.data = [{
           section: "News",},{id: "news-started-my-master-s-in-computer-science-at-uc-san-diego-this-fall-excited-to-explore-new-challenges-in-ai",
           title: 'Started my Master’s in Computer Science at UC San Diego 🎓 this fall....',
           description: "",
-          section: "News",},{id: "projects-age-and-gender-detection",
+          section: "News",},{id: "news-announcement-4",
+          title: 'Announcement_4',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "projects-age-and-gender-detection",
           title: 'Age and Gender Detection',
           description: "CNN models for age and gender classification in facial images using deep learning optimization techniques.",
           section: "Projects",handler: () => {
