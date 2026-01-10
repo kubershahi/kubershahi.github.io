@@ -683,7 +683,9 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    /* Make category titles use the main text color (typically white in dark theme)
+        so they match the project heading instead of the light divider color */
+    color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
