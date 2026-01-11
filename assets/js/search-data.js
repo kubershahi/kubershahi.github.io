@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A portfolio of my projects, featuring work from personal interests, academic studies, and professional experiences.",
+          description: "Technical solutions across Software Architecture and Applied Machine Learning, ranging from full-stack applications to optimized data pipelines.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
