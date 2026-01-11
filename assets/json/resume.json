@@ -13,7 +13,7 @@
       "institution": "University of California San Diego",
       "location": "La Jolla, California",
       "url": "https://www.ucsd.edu/",
-      "area": "Computer Science",
+      "area": "Computer Science (AI Specialization)",
       "studyType": "Master's",
       "startDate": "2024-09-01",
       "endDate": "Present",
@@ -220,7 +220,7 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "JavaScript", "SQ (NoSQL)", "R", "Shell Scripting (Bash)", "HTML/CSS", "MATLAB"]
+      "keywords": ["Python", "C/C++", "JavaScript", "SQL (NoSQL)", "R", "Shell Scripting (Bash)", "HTML/CSS", "MATLAB"]
     },
     {
       "name": "Machine Learning & AI",
@@ -356,32 +356,6 @@
       "language": "Hindi",
       "fluency": "Full Professional Proficiency",
       "icon": "fa-solid fa-globe"
-    }
-  ],
-  "references": [
-    {
-      "name": "Kaushik Chakrobarty",
-      "icon": "fa-solid fa-briefcase",
-      "contact": "kauchaks@hotmail.com",
-      "description": "Reporting Manager for 1.5 years during my stint at Vayana Network."
-    },
-    {
-      "name": "Sudarshan Rajan",
-      "icon": "fa-solid fa-briefcase",
-      "contact": "sudarshan@vayana.com",
-      "description": "Senior Team Member during my tenure at Vayana Network."
-    },
-    {
-      "name": "Professor Mahavir Jhawar",
-      "icon": "fa-solid fa-user-graduate",
-      "contact": "mahavir.jhawar@ashoka.edu.in",
-      "description": "Associate Professor, Computer Science Department, Ashoka University. Supervised my capstone project in privacy-preserving machine learning and collaborated with me on several research projects. Also served as my instructor for multiple courses."
-    },
-    {
-      "name": "Professor Debayan Gupta",
-      "icon": "fa-solid fa-user-graduate",
-      "contact": "debayan.gupta@ashoka.edu.in",
-      "description": "Assistant Professor, Computer Science Department, Ashoka University. Academic advisor. Supervised my capstone project in privacy-preserving machine learning and collaborated with me on several research projects. Also served as my instructor for multiple courses."
     }
   ]
 }
