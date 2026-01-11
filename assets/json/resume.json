@@ -6,7 +6,7 @@
     "email": "kshahi@ucsd.edu",
     "phone": "",
     "url": "https://kubershahi.github.io/",
-    "summary": "Machine Learning & Software Engineer with 3+ years of experience architecting scalable AI and data systems that drive measurable business impact in fintech and biotech. Currently advancing my expertise in AI Systems at UC San Diego while seeking my next challenge in Machine Learning or Software Engineering."
+    "summary": "Machine Learning & Software Engineer with 3+ years of experience architecting scalable AI and data systems. Currently advancing my AI Systems expertise at UC San Diego with a focus on high-impact ML and Software Engineering"
   },
   "education": [
     {
@@ -51,6 +51,18 @@
   ],
   "work": [
     {
+      "name": "Melio Tech",
+      "position": "Machine Learning Intern",
+      "url": "https://melio.tech/",
+      "startDate": "2025-08-13",
+      "endDate": "2025-12-20",
+      "summary": "",
+      "highlights": [
+        "Architected a modular GCP Vertex AI training pipeline to migrate legacy notebook code into decoupled, containerized modules, accelerating experimentation and cross-team feedback loops by 20%.",
+        "Engineered a model-agnostic architecture to enable multi-model support for rapid development, leveraging Vertex AI Experiments for automated performance tracking and versioning."
+      ]
+    },
+    {
       "name": "Vayana Network",
       "position": "Data Scientist",
       "url": "https://vayana.com/",
@@ -58,11 +70,11 @@
       "endDate": "2024-05-03",
       "summary": "",
       "highlights": [
-        "Optimized financial data processing by developing efficient, scalable ETL pipelines with PySpark on AWS, reducing processing time by 20 % and enhancing data reliability for analytics workflows.",
-        "Engineered a graph-based Business Network Analysis platform for the sales team, leveraging clustering algorithms to identify high-value potential customers, resulting in a 15 % increase in business growth.",
-        "Collaborated across teams to design and deploy a Management Information System (MIS) with Apache Superset, enhancing reporting, decision-making, and operational efficiency by 15 %.",
-        "Spearheaded the development of an NLP-driven PAN Resolution System to resolve duplicate company records across multiple data sources, improving data accuracy and reporting capabilities by 30 %.",
-        "Modeled proofs-of-concept to evaluate new technologies and solutions while supporting ad-hoc data analysis, enhancing team decision-making and operational agility."
+        "Optimized distributed data pipelines with PySpark on AWS EMR/S3 to process millions of invoices, reducing ETL latency by 20% and improving analytics reliability.",
+        "Developed a Business Network Analysis platform using NetworkX and community detection algorithms, identifying high-value customers and contributing to 15% business growth.",
+        "Designed and deployed a Management Information System (MIS) with Apache Superset for real-time reporting, improving cross-functional decision-making by 15%.",
+        "Spearheaded an Entity Resolution system using NLP-based vectorization and blocking techniques to deduplicate company records, improving data accuracy by 30% through scalable string-matching algorithms.",
+        "Developed rapid proofs-of-concept (PoCs) to evaluate emerging ML technologies and architected ad-hoc data solutions, driving operational agility and data-informed strategic decision-making."
       ]
     },
     {
@@ -85,8 +97,8 @@
       "endDate": "2022-03-31",
       "summary": "",
       "highlights": [
-        "Formulated a roadmap for a fitness recommendation system using wearable devices and led 3 co-interns to complete the first milestone, boosting user engagement and retention by 20 %",
-        "Conducted data analysis and visualization using Python and Plotly, supporting the research team’s de-aging investigation and achieving a 15 % improvement in user recommendations and insights."
+        "Led the design and prototyping of a wearable-based fitness recommendation system, coordinating a team of 3 interns to develop a personalized engine that improved user engagement and retention by 20%",
+        "Applied causal inference and statistical modeling using Python and Plotly to identify key drivers of user health outcomes, enhancing de-aging research insights by 15%"
       ]
     },
     {
@@ -169,6 +181,17 @@
   ],
   "teaching": [
     {
+      "institution": "Pol Sci Department, UC San Diego",
+      "position": "Teaching Assistant",
+      "url": "https://polisci.ucsd.edu/",
+      "startDate": "2025-09-20",
+      "endDate": "2025-12-15",
+      "summary": "",
+      "highlights": [
+        "**Political Inquiry (Poli 30D)**, Fall 2025, Prof. Scott Desposato, Class Size: 210. Tasks: conduct weekly discussion sections, hold office hours, grade assignments and exams, and assist students with statistical concepts and STATA."
+      ]
+    },
+    {
       "institution": "CS Department, Ashoka University",
       "position": "Teaching Assistant",
       "url": "https://www.ashoka.edu.in/",
@@ -197,50 +220,55 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "JavaScript", "SQL", "Shell Scripting (Bash)", "R", "HTML/CSS", "MATLAB"]
+      "keywords": ["Python", "C/C++", "JavaScript", "SQ (NoSQL)", "R", "Shell Scripting (Bash)", "HTML/CSS", "MATLAB"]
     },
     {
-      "name": "Frameworks & Libraries",
+      "name": "Machine Learning & AI",
       "level": "",
       "icon": "fa-solid fa-layer-group",
       "keywords": [
         "PyTorch",
         "TensorFlow",
+        "LLMs",
+        "Hugging Face",
+        "LangChain",
         "Scikit-learn",
         "Pandas",
         "NumPy",
-        "Apache Spark",
-        "React",
-        "Node.js",
-        "Django",
-        "Selenium",
-        "HuggingFace",
-        "LangChain"
+        "NLP",
+        "Computer Vision",
+        "Causal Inference"
       ]
     },
     {
-      "name": "Cloud Platforms & Tools",
+      "name": "Data & Distributed Systems",
       "level": "",
       "icon": "fa-solid fa-cloud",
-      "keywords": ["AWS (S3, EC2, Lambda)", "Docker", "Git", "Linux", "Apache Superset", "Power BI", "Dash", "Plotly"]
+      "keywords": ["Apache Spark", "Hive/Hadoop", "ETL", "GCP (Cloud Storage, Vertex AI)", "AWS (S3, EC2, Lambda)", "MySQL", "PostgreSQL", "MongoDB"]
     },
     {
-      "name": "Databases & Data Systems",
+      "name": "Software & Infrastructure",
       "level": "",
       "icon": "fa-solid fa-database",
-      "keywords": ["PostgreSQL", "MySQL", "MongoDB", "Apache Hive", "Hadoop", "NoSQL", "Data Warehousing", "ETL Pipelines"]
+      "keywords": ["React.js", "Node.js", "Django", "CI/CD", "Git", "Kubernetes", "Docker", "Linux", "Selenium"]
+    },
+    {
+      "name": "Analytics & Visualization",
+      "level": "",
+      "icon": "fa-solid fa-database",
+      "keywords": ["Apache Superset", "Power BI", "Plotly", "Dash", "Statistical Data Analysis"]
     },
     {
       "name": "Professional Skills",
       "level": "",
       "icon": "fa-solid fa-users",
       "keywords": [
-        "Team Leadership",
-        "Cross-functional Collaboration",
+        "Project Management",
         "Technical Communication",
         "Problem Solving",
-        "Project Management",
-        "Analytical Thinking"
+        "Analytical Thinking",
+        "Team Leadership",
+        "Cross-functional Collaboration"
       ]
     }
   ],
