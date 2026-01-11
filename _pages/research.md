@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: "A portfolio of my research work, featuring academic studies, research projects, and scholarly contributions."
+description: "Investigative work in AI Systems, Privacy-Preserving ML, and Security, featuring graduate and undergraduate research, independent studies, and seminar presentations."
 nav: false
 nav_order: 2
 display_categories: [Machine Learning, Privacy and Security, Presentations]
