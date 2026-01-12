@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "Technical solutions across Software Architecture and Applied Machine Learning, ranging from full-stack applications to optimized data pipelines.",
+          description: "Engineering solutions in Applied Machine Learning and Software Architecture, featuring task-specific ML models and interactive full-stack web applications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
