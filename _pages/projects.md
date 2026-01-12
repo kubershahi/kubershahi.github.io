@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: "Technical solutions across Software Architecture and Applied Machine Learning, ranging from full-stack applications to optimized data pipelines."
+description: "Engineering solutions in Applied Machine Learning and Software Architecture, featuring task-specific ML models and interactive full-stack web applications."
 nav: true
 nav_order: 2
 display_categories: [Machine Learning, Data Science, Software Engineering, Presenations]
