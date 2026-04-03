@@ -408,6 +408,11 @@ ninja.data = [{
           description: "Fine-tuned Google&#39;s Pegasus LLM for generating concise and accurate headlines from news articles.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/headline-generation/";
+            },},{id: "projects-llm-agent-planning-under-deception",
+          title: 'LLM Agent Planning under Deception',
+          description: "Evaluating LLM agent architectures in deceptive text environments to understand the limits of multi-step planning and reasoning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-agents/";
             },},{
         id: 'social-email',
         title: 'email',
