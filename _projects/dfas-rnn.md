@@ -3,7 +3,7 @@ layout: page
 title: Synthesizing DFAs using RNNs
 description: RNN-based model to automate the synthesis of Deterministic Finite Automata for formal language representation.
 img: assets/img/dfas-rnn.png
-importance: 4
+importance: 5
 category: Machine Learning
 ---
 

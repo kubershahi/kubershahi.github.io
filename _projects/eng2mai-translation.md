@@ -3,7 +3,7 @@ layout: page
 title: Efficient English-Maithili Translation
 description: A lightweight translation model for the Maithili language using efficient fine-tuning techniques
 img: assets/img/english-maithili.png
-importance: 1
+importance: 2
 category: Machine Learning
 ---
 
