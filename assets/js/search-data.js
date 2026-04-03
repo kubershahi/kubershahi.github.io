@@ -369,14 +369,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-released-findings-from-our-study-on-llm-agent-planning-under-deception-evaluating-four-agent-architectures-across-deceptive-text-environments",
-          title: 'Released findings from our study on LLM agent planning under deception 🤖, evaluating...',
-          description: "",
-          section: "News",},{id: "news-wrapped-up-my-machine-learning-internship-at-melio-where-i-rebuilt-ml-training-infrastructure-for-blood-diagnostic-time-series-classification",
+            },},{id: "news-wrapped-up-my-machine-learning-internship-at-melio-where-i-rebuilt-ml-training-infrastructure-for-blood-diagnostic-time-series-classification",
           title: 'Wrapped up my Machine Learning internship at Melio 🎉, where I rebuilt ML...',
           description: "",
           section: "News",},{id: "news-started-investigating-uncertainty-quantification-for-medical-image-registration-at-ucsd-s-biomedical-image-analysis-group",
           title: 'Started investigating uncertainty quantification for medical image registration 🧬 at UCSD’s Biomedical Image...',
+          description: "",
+          section: "News",},{id: "news-released-findings-from-our-study-on-llm-agent-planning-under-deception-evaluating-four-agent-architectures-across-deceptive-text-environments",
+          title: 'Released findings from our study on LLM agent planning under deception 🤖, evaluating...',
           description: "",
           section: "News",},{id: "projects-age-and-gender-detection",
           title: 'Age and Gender Detection',
