@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science Graduate Student at UC San Diego
+subtitle:
 
 profile:
   align: right
@@ -25,12 +25,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a second-year Master's student in Computer Science at [UC San Diego](https://cse.ucsd.edu/), specializing in Artificial Intelligence. My current research focuses on LLM-based agents for complex tasks, especially improving multi-step reasoning and constraint handling. My broader research interests include natural language processing, multi-modal and LLM-based reasoning, and agentic/embodied AI, with applications in healthcare and beyond.
+Hey, thanks for stopping by!
 
-Before grad school, I worked as a Data Scientist at [Vayana Network](https://vayana.com/), where I built scalable ETL pipelines, developed graph-based tools to uncover customer insights, and led NLP systems for deduplication of company records. I also built an internal reporting platform using Apache Superset to improve access to business metrics across teams.
+I'm Kuber. I build things with data. From distributed pipelines ingesting massive, diverse datasets to training language and vision models for practical machine learning systems, I work across the full ML stack, turning messy, real-world problems into production-ready solutions.
 
-I earned my Bachelor's in Computer Science with a minor in Physics from [Ashoka University](https://www.ashoka.edu.in/). During my time there, I had the opportunity to explore research in privacy-preserving machine learning and applied cryptography with Professors [Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home) and [Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/). I worked on topics such as secure neural network training, adversarial attacks on ML models, and privacy vulnerabilities in encrypted email systems.
+Currently, I'm a Graduate Researcher at [UCSD's Biomedical Image Analysis Group](https://cseweb.ucsd.edu/~mniethammer/), where I investigate uncertainty quantification for medical image registration, while broadening my ML expertise at [UC San Diego](https://cse.ucsd.edu/) through coursework spanning Statistical NLP, Computer Vision, AI Agents, and ML Systems. My work is driven by my research interests in LLM-based reasoning, agentic AI, and deep learning for medical imaging.
 
-Along the way, I've explored projects in abstractive text summarization, one-shot learning, and full-stack web development. I enjoy working on problems that require both creativity and technical depth, especially where real-world impact is involved.
+Last summer, I was a Machine Learning Intern at [Melio](https://melio.tech/), a blood diagnostics biotech startup, where I got to work at the intersection of MLOps and healthcare, rebuilding fragmented research workflows into a robust, production-grade ML training infrastructure for blood diagnostic time series classification. Before that, I spent two years as a Data Scientist at [Vayana Network](https://vayana.com/), India's largest trade credit and supply chain financing fintech, where I built large-scale data infrastructure to streamline invoice processing, developed graph-based tools to uncover customer networks driving business growth, and led an NLP-based entity resolution system to deduplicate and enrich company records, improving data quality at scale.
 
-Outside of work and research, I enjoy watching science fiction, mystery, and thriller movies. I'm a big Chelsea FC fan and follow football closely, as well as cricket and Formula 1 occasionally. I also like to swim and run during my free time.
+My foundations in ML go back to my undergraduate years at [Ashoka University](https://www.ashoka.edu.in/), where I graduated with honors in Computer Science with a minor in Physics. There, I got my first taste of research, working with Professors [Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home) and [Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/) on privacy-preserving machine learning, adversarial attacks on ML models, and cryptographic vulnerabilities in encrypted systems, implementing secure neural network training protocols in C++.
+
+Beyond my core work, I've explored projects spanning LLM agent evaluation, low-resource NLP, abstractive text summarization, blockchain-based applications, and full-stack web development. I enjoy working on problems that require both creativity and technical depth, especially where real-world impact is involved.
+
+Outside of work and research, I'm a big Chelsea FC fan and follow football closely, alongside cricket and Formula 1 occasionally. I enjoy science fiction, mystery, and thriller films, and like to swim and hike in my free time.
