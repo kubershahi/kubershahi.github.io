@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my Master's in Computer Science at UC San Diego 🎓 this fall. Excited to explore new challenges in AI!!! 🚀
+Released findings from our study on LLM agent planning under deception 🤖, evaluating four agent architectures across deceptive text environments.
