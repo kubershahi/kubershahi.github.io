@@ -400,7 +400,7 @@ ninja.data = [{
               window.location.href = "/projects/eng2mai-translation/";
             },},{id: "projects-gamified-kanban-board",
           title: 'Gamified Kanban Board',
-          description: "A collaborative task management system with reward-based incentives and automated CI/CD workflows",
+          description: "A collaborative full-stack gamified task management app built with a team of 8, featuring reward-based incentives and CI/CD workflows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gamified-kanban/";
             },},{id: "projects-headline-generation",
@@ -410,7 +410,7 @@ ninja.data = [{
               window.location.href = "/projects/headline-generation/";
             },},{id: "projects-llm-agent-planning-under-deception",
           title: 'LLM Agent Planning under Deception',
-          description: "Evaluating LLM agent architectures in deceptive text environments to understand the limits of multi-step planning and reasoning.",
+          description: "A collaborative effort to evaluate LLM agent architectures in deceptive text environments to understand the limits of multi-step planning and reasoning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/llm-agents/";
             },},{
