@@ -5,7 +5,6 @@ description: Fine-tuned Google's Pegasus LLM for generating concise and accurate
 img: assets/img/headline-generation.png
 importance: 3
 category: Machine Learning
-related_publications: true
 ---
 
 ## Overview

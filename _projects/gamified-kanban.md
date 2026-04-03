@@ -5,6 +5,7 @@ description: A collaborative task management system with reward-based incentives
 img: assets/img/gamified-kanban.png
 importance: 1
 category: Software Engineering
+redirect: https://cse210team15.web.app/
 ---
 
 ## Overview
