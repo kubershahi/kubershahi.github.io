@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Released findings from our study on LLM agent planning under deception 🤖, evaluating four agent architectures across deceptive text environments.
+Released findings from our [study on LLM agent planning under deception](https://github.com/kubershahi/llm-agent-deception) 🤖, evaluating four agent architectures across deceptive text environments.
