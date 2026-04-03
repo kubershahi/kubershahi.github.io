@@ -5,6 +5,7 @@ description: A lightweight translation model for the Maithili language using eff
 img: assets/img/english-maithili.png
 importance: 2
 category: Machine Learning
+redirect: /assets/pdf/eng2mai-translation.pdf
 ---
 
 ## Overview
