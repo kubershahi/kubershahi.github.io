@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gamified Kanban Board
-description: A collaborative task management system with reward-based incentives and automated CI/CD workflows
+description: A collaborative full-stack gamified task management app built with a team of 8, featuring reward-based incentives and CI/CD workflows.
 img: assets/img/gamified-kanban.png
 importance: 1
 category: Software Engineering
