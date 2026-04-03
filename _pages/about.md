@@ -6,7 +6,7 @@ subtitle: Computer Science Graduate Student at UC San Diego
 
 profile:
   align: right
-  image: profile_pic_cropped.png
+  image: profile_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     Email: kshahi[at]ucsd[dot]edu
