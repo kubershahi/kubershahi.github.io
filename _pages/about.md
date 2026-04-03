@@ -27,7 +27,7 @@ latest_posts:
 
 Hey, thanks for stopping by!
 
-I'm Kuber. I build things with data. From distributed pipelines ingesting massive, diverse datasets to training language and vision models for practical machine learning systems, I work across the full ML stack, turning messy, real-world problems into production-ready solutions.
+I'm Kuber. I build things with data. From distributed pipelines that ingest massive, diverse datasets to training language and vision models for practical machine learning systems, I work across the full ML stack, transforming messy, real-world problems into production-ready solutions.
 
 Currently, I'm a Graduate Researcher at [UCSD's Biomedical Image Analysis Group](https://cseweb.ucsd.edu/~mniethammer/), where I investigate uncertainty quantification for medical image registration, while broadening my ML expertise at [UC San Diego](https://cse.ucsd.edu/) through coursework spanning Statistical NLP, Computer Vision, AI Agents, and ML Systems. My work is driven by my research interests in LLM-based reasoning, agentic AI, and deep learning for medical imaging.
 
@@ -37,4 +37,4 @@ My foundations in ML go back to my undergraduate years at [Ashoka University](ht
 
 Beyond my core work, I've explored projects spanning LLM agent evaluation, low-resource NLP, abstractive text summarization, blockchain-based applications, and full-stack web development. I enjoy working on problems that require both creativity and technical depth, especially where real-world impact is involved.
 
-Outside of work and research, I'm a big Chelsea FC fan and follow football closely, alongside cricket and Formula 1 occasionally. I enjoy science fiction, mystery, and thriller films, and like to swim and hike in my free time.
+Outside of work and research, I'm a big Chelsea FC fan and follow football closely, alongside cricket and Formula 1 occasionally. I also enjoy science fiction, mystery, and thriller films, and like to swim and hike in my free time.
