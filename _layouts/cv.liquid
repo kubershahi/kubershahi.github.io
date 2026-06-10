@@ -88,7 +88,20 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% assign title_words = data[0] | split: ' ' %}
+            {% assign lowercase_words = 'and,or,the,a,an,in,on,at,for,of,to' | split: ',' %}
+            {% capture section_title %}
+              {% for word in title_words %}
+                {% assign lower_word = word | downcase %}
+                {% if forloop.first == false and lowercase_words contains lower_word %}
+                  {{ lower_word }}
+                {% else %}
+                  {{ word | capitalize }}
+                {% endif %}
+                {% unless forloop.last %} {% endunless %}
+              {% endfor %}
+            {% endcapture %}
+            <h3 class="card-title font-weight-medium">{{ section_title | strip }}</h3>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
