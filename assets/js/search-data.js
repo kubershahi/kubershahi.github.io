@@ -425,13 +425,13 @@ ninja.data = [{
           description: "Independent study examining security vulnerabilities in OpenPGP and S/MIME email encryption, with analysis of real-world attacks on major email clients and proposed countermeasures.",
           section: "Research",handler: () => {
               window.location.href = "/research/applied-cryptography/";
-            },},{id: "research-privacy-preserving-machine-learning-protocols",
-          title: 'Privacy-Preserving Machine Learning Protocols',
+            },},{id: "research-ppml-protocol-design-and-evaluation",
+          title: 'PPML Protocol Design and Evaluation',
           description: "Research internship at Mphasis Lab implementing and evaluating PPML protocols including SecureML and BLAZE, and co-developing an optimized protocol for business-specific applications.",
           section: "Research",handler: () => {
               window.location.href = "/research/mphasis-ppml/";
-            },},{id: "research-privacy-preserving-neural-networks",
-          title: 'Privacy-Preserving Neural Networks',
+            },},{id: "research-privacy-preserving-neural-network-training",
+          title: 'Privacy-Preserving Neural Network Training',
           description: "Capstone project researching secure multi-party computation techniques to enable privacy-preserving neural network training across distributed systems using SecureNN protocols.",
           section: "Research",handler: () => {
               window.location.href = "/research/ppnn-capstone/";
