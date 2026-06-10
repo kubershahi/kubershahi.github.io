@@ -54,6 +54,18 @@ ninja.data = [
   {%- endfor -%}
   {%- if site.posts_in_search -%}
     {%- for post in site.posts -%}
+      {%- assign exclude_post = false -%}
+      {%- if post.search == false -%}
+        {%- assign exclude_post = true -%}
+      {%- endif -%}
+      {%- if site.search_exclude_categories and post.categories -%}
+        {%- for cat in post.categories -%}
+          {%- if site.search_exclude_categories contains cat -%}
+            {%- assign exclude_post = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- unless exclude_post -%}
       {
         {%- assign title = post.title | escape | strip -%}
         id: "post-{{ title | slugify }}",
@@ -76,11 +88,18 @@ ninja.data = [
           {% endif %}
         },
       },
+      {%- endunless -%}
     {%- endfor -%}
   {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
+      {%- if site.search_exclude_collections and site.search_exclude_collections contains collection.label -%}
+        {%- continue -%}
+      {%- endif -%}
       {%- for item in collection.docs -%}
+        {%- if item.search == false -%}
+          {%- continue -%}
+        {%- endif -%}
         {
           {%- if item.inline -%}
             {%- assign title = item.content | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}

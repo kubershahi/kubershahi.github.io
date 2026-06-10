@@ -5,5 +5,5 @@ description: Independent study examining security vulnerabilities in OpenPGP and
 img: assets/img/email-encryption.png
 importance: 5
 category:
-redirect: https://github.com/kubershahi/email-encryption
+redirect: https://github.com/kubershahi/email-encryption/blob/main/report/Email_Final_Report.pdf
 ---
