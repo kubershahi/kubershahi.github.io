@@ -6,7 +6,7 @@
     "email": "kshahi@ucsd.edu",
     "phone": "",
     "url": "https://kubershahi.github.io/",
-    "summary": "Machine Learning & Software Engineer with 3+ years of experience architecting scalable AI and data systems. Currently advancing my AI Systems expertise at UC San Diego with a focus on high-impact ML and Software Engineering"
+    "summary": "Machine Learning Engineer and Data Scientist with 3+ years of experience architecting scalable AI systems, production data pipelines, and NLP solutions. Currently researching uncertainty quantification for medical image registration at UCSD's Biomedical Image Analysis Group."
   },
   "education": [
     {
@@ -16,7 +16,7 @@
       "area": "Computer Science (AI Specialization)",
       "studyType": "Master's",
       "startDate": "2024-09-01",
-      "endDate": "Present",
+      "endDate": "2026-06-12",
       "score": "4.0",
       "courses": [
         "Statistical NLP, Computer Vision I, AI Agents, ML Systems, Software Engineering, Algorithm Design and Analysis, Machine Learning for Robotics, Medical Image Computing"
@@ -51,7 +51,7 @@
   ],
   "work": [
     {
-      "name": "Melio Tech",
+      "name": "Melio",
       "position": "Machine Learning Intern",
       "url": "https://melio.tech/",
       "startDate": "2025-08-13",
@@ -78,18 +78,6 @@
       ]
     },
     {
-      "name": "Ashoka University Resident Assistants",
-      "position": "Resident Assistant",
-      "url": "https://sg.ashoka.edu.in/resources/aura",
-      "startDate": "2021-08-15",
-      "endDate": "2022-05-15",
-      "summary": "",
-      "highlights": [
-        "Managed a residence floor of 70 residents by assisting them with their academic, personal, and logistical issues on/off campus.",
-        "Created a safe, healthy, and comfortable learning environment on the floor by organizing team-building and wellness events for the residents."
-      ]
-    },
-    {
       "name": "Ageless Partners",
       "position": "Data Science Intern",
       "url": "https://agelesspartners.com/",
@@ -100,30 +88,18 @@
         "Led the design and prototyping of a wearable-based fitness recommendation system, coordinating a team of 3 interns to develop a personalized engine that improved user engagement and retention by 20%",
         "Applied causal inference and statistical modeling using Python and Plotly to identify key drivers of user health outcomes, enhancing de-aging research insights by 15%"
       ]
-    },
-    {
-      "name": "Techvik Blog",
-      "position": "Web Developer",
-      "url": "",
-      "startDate": "2020-06-01",
-      "endDate": "2022-09-30",
-      "summary": "",
-      "highlights": [
-        "Redesigned and remodeled the platform’s website on WIX, increasing the user traffic by up to 20 %.",
-        "Optimized the website’s load time and increased its SEO performance by 30 % through media optimization and extensive keyword tagging."
-      ]
     }
   ],
   "research": [
     {
       "name": "University of California San Diego",
       "position": "Graduate Student Researcher",
-      "url": "https://www.ucsd.edu/",
-      "startDate": "2025-06-01",
+      "url": "https://cseweb.ucsd.edu/~mniethammer/author/marc-niethammer/",
+      "startDate": "2026-01-01",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Investigating planning methods for LLM-based travel planning agents, with a focus on evaluating external planner integration for improving multi-step reasoning and constraint handling."
+        "Researching uncertainty quantification for medical image registration; investigating predictive uncertainty vs.registration error via supervised error regression using TorchIO synthetic deformation."
       ]
     },
     {
@@ -185,9 +161,10 @@
       "position": "Teaching Assistant",
       "url": "https://polisci.ucsd.edu/",
       "startDate": "2025-09-20",
-      "endDate": "2025-12-15",
+      "endDate": "2026-06-16",
       "summary": "",
       "highlights": [
+        "**Theories of Technology and National Security (Poli 145)**, Spring 2026, Prof. Michael F. Joseph, Class Size: 180. Tasks: hold office hours, grade assignments and exams, and assist students with technological concepts (both old and emerging) and their impact on state security.",
         "**Political Inquiry (Poli 30D)**, Fall 2025, Prof. Scott Desposato, Class Size: 210. Tasks: conduct weekly discussion sections, hold office hours, grade assignments and exams, and assist students with statistical concepts and STATA."
       ]
     },
@@ -311,7 +288,18 @@
       "summary": "Appeared on the Dean's List: Monsoon'18, Spring'19, Monsoon'19, Spring'20, Monsoon'20, Spring'21, Monsoon'21, and Spring'22."
     }
   ],
-  "volunteer": [
+  "leadership and activities": [
+    {
+      "organization": "Ashoka University Resident Assistants",
+      "position": "Resident Assistant",
+      "url": "https://sg.ashoka.edu.in/resources/aura",
+      "startDate": "2021-08-15",
+      "endDate": "2022-05-15",
+      "summary": "",
+      "highlights": [
+        "Managed a residence floor of 70 students, supporting their academic and personal needs while fostering community through team-building and wellness events."
+      ]
+    },
     {
       "organization": "Office of Learning Support (OLS), Ashoka University",
       "position": "Peer Mentor",
@@ -320,19 +308,29 @@
       "endDate": "2021-05-15",
       "summary": "",
       "highlights": [
-        "Provided needed guidance and support to an assigned mentee.",
-        "Helped him to make academic and career decisions by providing meaningful insights and responses to his queries."
+        "Mentored an undergraduate student on academic and career decisions, providing guidance on course selection, research opportunities, and professional development."
       ]
     },
     {
-      "organization": "IT Team, Ashoka University Election Commission 2020",
-      "position": "IT Support",
-      "url": "https://www.ashoka.edu.in/student-government/",
-      "startDate": "2020-02-01",
-      "endDate": "2020-02-29",
+      "organization": "Ashoka University International Student Association (AUISA)",
+      "position": "Events Team and Member",
+      "url": "https://www.linkedin.com/company/ashoka-university-international-students/",
+      "startDate": "2018-09-01",
+      "endDate": "2020-02-01",
       "summary": "",
       "highlights": [
-        "Served as a member of the IT support team, providing troubleshooting and acting as the primary point of contact for any issues related to the online election website."
+        "Co-organized Ubuntu, an inter-collegiate cultural festival, for two consecutive years, alongside various other cultural and educational events on campus, bringing together international and domestic students to foster cross-cultural exchange and community building."
+      ]
+    },
+    {
+      "organization": "Ashoka University Volleyball Team",
+      "position": "Team Member",
+      "url": "https://www.ashoka.edu.in/sports-exercise/",
+      "startDate": "2018-09-01",
+      "endDate": "2020-02-01",
+      "summary": "",
+      "highlights": [
+        "Represented Ashoka University in inter-collegiate volleyball tournaments, competing as part of a team across multiple university-level competitions."
       ]
     }
   ],
