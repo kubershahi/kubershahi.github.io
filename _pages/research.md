@@ -2,10 +2,10 @@
 layout: page
 title: research
 permalink: /research/
-description: "Investigative work in AI Systems, Privacy-Preserving ML, and Security, featuring graduate and undergraduate research, independent studies, and seminar presentations."
-nav: false
-nav_order: 2
-display_categories: [Machine Learning, Privacy and Security, Presentations]
+description: "Graduate and undergraduate research in machine learning and security, spanning medical image analysis at UCSD and privacy-preserving ML, adversarial attacks, and applied cryptography at Ashoka University."
+nav: true
+nav_order: 3
+display_categories: [Graduate, Undergraduate]
 horizontal: false
 ---
 
