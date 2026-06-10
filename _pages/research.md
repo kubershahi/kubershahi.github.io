@@ -5,13 +5,13 @@ permalink: /research/
 description: "Graduate and undergraduate research in machine learning and security, spanning medical image analysis at UCSD and privacy-preserving ML, adversarial attacks, and applied cryptography at Ashoka University."
 nav: true
 nav_order: 3
-display_categories: [Graduate, Undergraduate]
+display_categories: []
 horizontal: false
 ---
 
 <!-- pages/research.md -->
 <div class="research">
-{% if site.enable_project_categories and page.display_categories %}
+{% if site.enable_research_categories and page.display_categories %}
   <!-- Display categorized research -->
   {% for category in page.display_categories %}
     {% assign categorized_research = site.research | where: "category", category %}
