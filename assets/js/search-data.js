@@ -420,6 +420,26 @@ ninja.data = [{
           description: "A collaborative effort to evaluate LLM agent architectures in deceptive text environments to understand the limits of multi-step planning and reasoning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/llm-agents/";
+            },},{id: "research-applied-cryptography",
+          title: 'Applied Cryptography',
+          description: "Independent study examining security vulnerabilities in OpenPGP and S/MIME email encryption, with analysis of real-world attacks on major email clients and proposed countermeasures.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/applied-cryptography/";
+            },},{id: "research-privacy-preserving-machine-learning-protocols",
+          title: 'Privacy-Preserving Machine Learning Protocols',
+          description: "Research internship at Mphasis Lab implementing and evaluating PPML protocols including SecureML and BLAZE, and co-developing an optimized protocol for business-specific applications.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/mphasis-ppml/";
+            },},{id: "research-privacy-preserving-neural-networks",
+          title: 'Privacy-Preserving Neural Networks',
+          description: "Capstone project researching secure multi-party computation techniques to enable privacy-preserving neural network training across distributed systems using SecureNN protocols.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/ppnn-capstone/";
+            },},{id: "research-secure-machine-learning",
+          title: 'Secure Machine Learning',
+          description: "Independent study investigating the impact of adversarial attacks including data poisoning and model evasion on ML model reliability and performance.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/secureml/";
             },},{id: "research-uncertainty-quantification-for-medical-image-registration",
           title: 'Uncertainty Quantification for Medical Image Registration',
           description: "Investigating methods to assess medical image registration quality through uncertainty quantification and its relation to registration error.",
