@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-research",
+          title: "research",
+          description: "Graduate and undergraduate research in machine learning and security, spanning medical image analysis at UCSD and privacy-preserving ML, adversarial attacks, and applied cryptography at Ashoka University.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -413,6 +420,11 @@ ninja.data = [{
           description: "A collaborative effort to evaluate LLM agent architectures in deceptive text environments to understand the limits of multi-step planning and reasoning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/llm-agents/";
+            },},{id: "research-uncertainty-quantification-for-medical-image-registration",
+          title: 'Uncertainty Quantification for Medical Image Registration',
+          description: "Investigating methods to assess medical image registration quality through uncertainty quantification and its relation to registration error.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/uncertainty-quantification/";
             },},{
         id: 'social-email',
         title: 'email',
