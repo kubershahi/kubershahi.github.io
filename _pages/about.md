@@ -27,7 +27,7 @@ latest_posts:
 
 Hey, thanks for stopping by!
 
-I'm Kuber. I build ML systems. From distributed pipelines that ingest massive, diverse datasets to training language and vision models for practical machine learning systems, I work across the full ML stack, transforming messy, real-world problems into production-ready solutions.
+I work across the full ML stack, from building distributed data pipelines to training and deploying language and vision models, turning messy real-world problems into production-ready ML systems.
 
 Currently, I'm a Graduate Researcher at [UCSD's Biomedical Image Analysis Group](https://cseweb.ucsd.edu/~mniethammer/), where I investigate uncertainty quantification for medical image registration, while broadening my ML expertise at [UC San Diego](https://cse.ucsd.edu/) through coursework spanning Statistical NLP, Computer Vision, AI Agents, and ML Systems. My work is driven by my research interests in LLM-based reasoning, agentic AI, medical image analysis, and NLP, and I enjoy working on problems that require both creativity and technical depth, especially where real-world impact is involved.
 
