@@ -5,7 +5,7 @@ description: RNN-based model to automate the synthesis of Deterministic Finite A
 img: assets/img/dfas-rnn.png
 importance: 5
 category: Machine Learning
-redirect: https://github.com/kubershahi/dfas-rnn
+# redirect: https://github.com/kubershahi/dfas-rnn
 ---
 
 ## Overview
