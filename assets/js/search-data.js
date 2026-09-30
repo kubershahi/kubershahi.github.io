@@ -49,9 +49,9 @@ ninja.data = [{
           description: "A React-based web application for secure academic credential verification using blockchain technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/certificate-verification/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-crosscheck-earnings-call-claim-verification",
+          title: 'CrossCheck: Earnings Call Claim Verification',
+          description: "Cross-document RAG that checks earnings-call claims against the same company-quarter’s SEC filings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/crosscheck/";
             },},{id: "projects-synthesizing-dfas-using-rnns",
