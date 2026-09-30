@@ -3,7 +3,7 @@ layout: page
 title: Headline Generation
 description: Fine-tuned Google's Pegasus LLM for generating concise and accurate headlines from news articles.
 img: assets/img/headline-generation.png
-importance: 3
+importance: 4
 category: Machine Learning
 ---
 
