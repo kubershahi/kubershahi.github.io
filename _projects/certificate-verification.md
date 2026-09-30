@@ -5,6 +5,7 @@ description: A React-based web application for secure academic credential verifi
 img: assets/img/certificate-verification.png
 importance: 2
 category: Software Engineering
+# redirect: https://github.com/kubershahi/certificate-verification
 ---
 
 ## Overview

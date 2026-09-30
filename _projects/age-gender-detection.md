@@ -5,7 +5,7 @@ description: CNN models for age and gender classification in facial images using
 img: assets/img/age-gender-detection.png
 importance: 4
 category: Machine Learning
-redirect: https://github.com/kubershahi/age-gender-detection/blob/main/Project%20Report.pdf
+# redirect: https://github.com/kubershahi/age-gender-detection
 ---
 
 ## Overview
