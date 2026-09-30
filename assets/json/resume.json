@@ -6,7 +6,7 @@
     "email": "kshahi@ucsd.edu",
     "phone": "",
     "url": "https://kubershahi.github.io/",
-    "summary": "Machine Learning Engineer and Data Scientist with 3+ years of experience architecting scalable AI systems, production data pipelines, and NLP solutions. Currently researching uncertainty quantification for medical image registration at UCSD's Biomedical Image Analysis Group."
+    "summary": "Machine Learning Engineer and Data Scientist with 3+ years of experience architecting scalable AI systems, production data pipelines, and NLP solutions. Currently researching EEG Foundation Models @ SCCN Lab and Medical Image Registration Uncertainty @ BIAG Lab"
   },
   "education": [
     {
@@ -51,6 +51,17 @@
   ],
   "work": [
     {
+      "name": "SCCN Lab, UCSD",
+      "position": "Staff Research Associate I",
+      "url": "https://sccn.ucsd.edu/",
+      "startDate": "2026-08-26",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Building data-collation and pretraining infrastructure on EEGDash and braindecode for electroencephalography (EEG) foundation model pretraining, validated by pretraining REVE on SDSC Slurm HPC."
+      ]
+    },
+    {
       "name": "Melio",
       "position": "Machine Learning Intern",
       "url": "https://melio.tech/",
@@ -92,14 +103,15 @@
   ],
   "research": [
     {
-      "name": "University of California San Diego",
-      "position": "Graduate Student Researcher",
-      "url": "https://cseweb.ucsd.edu/~mniethammer/author/marc-niethammer/",
-      "startDate": "2026-01-01",
+      "name": "BIAG Lab, UCSD",
+      "position": "Research Assistant",
+      "url": "https://cseweb.ucsd.edu/~mniethammer/",
+      "startDate": "2025-01-05",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Researching uncertainty quantification for medical image registration; investigating predictive uncertainty vs.registration error via supervised error regression using TorchIO synthetic deformation."
+        "Built an end-to-end PyTorch/CUDA pipeline for registration-error regression: synthesized transformations via TorchIO/SimpleITK, ran inference at scale, and trained a 3D U-Net to output dense error maps.",
+        "Evaluated the model on 147 held-out volumes, achieving Pearson r = 0.874 and masked MAE of 0.338 voxels, using W&B-tracked, ablation-ready experiments on the NRP Kubernetes cluster"
       ]
     },
     {

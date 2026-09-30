@@ -5,5 +5,5 @@ description: Capstone project researching secure multi-party computation techniq
 img: assets/img/ppnn-capstone.png
 importance: 2
 category:
-redirect: https://github.com/kubershahi/ppnn-capstone/blob/main/docs/Capstone_Report.pdf
+redirect: https://github.com/kubershahi/ppnn-capstone
 ---
