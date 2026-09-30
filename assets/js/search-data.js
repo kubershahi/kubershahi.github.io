@@ -49,6 +49,11 @@ ninja.data = [{
           description: "A React-based web application for secure academic credential verification using blockchain technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/certificate-verification/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/crosscheck/";
             },},{id: "projects-synthesizing-dfas-using-rnns",
           title: 'Synthesizing DFAs using RNNs',
           description: "RNN-based model to automate the synthesis of Deterministic Finite Automata for formal language representation.",
