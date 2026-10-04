@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-03-16
+date: 2026-09-30
 inline: true
 related_posts: false
 ---
 
-Released findings from our [study on LLM agent planning under deception](https://github.com/kubershahi/llm-agent-deception) 🤖, evaluating four agent architectures across deceptive text environments.
+Released [CrossCheck](https://github.com/kubershahi/crosscheck) 🔎, a cross-document RAG + NLI system that verifies earnings-call claims against the same company-quarter's 10-Q/10-K filings.
