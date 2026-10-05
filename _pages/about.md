@@ -16,8 +16,8 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -31,7 +31,7 @@ I work across the full ML stack, from building distributed data pipelines to tra
 
 I'm currently a Staff Research Associate I at UCSD's [Swartz Center for Computational Neuroscience (SCCN)](https://sccn.ucsd.edu/), where I build data-collation and pretraining infrastructure on EEGDash and braindecode for electroencephalography (EEG) foundation models, and validate it through pretraining. I'm also working with [UCSD's Biomedical Image Analysis Group](https://cseweb.ucsd.edu/~mniethammer/) on uncertainty quantification for medical image registration, research I started during my degree. My research interests span EEG foundation models and tooling, uncertainty quantification, and agentic and embodied AI, and I'm drawn to problems that call for both creativity and technical depth, especially where real-world impact is involved. I also recently completed my MS in Computer Science (AI Specialization) at [UC San Diego](https://cse.ucsd.edu/).
 
-Last summer, I was a Machine Learning Intern at [Melio](https://melio.tech/), a blood diagnostics biotech startup, where I got to work at the intersection of MLOps and healthcare, rebuilding fragmented research workflows into a robust, production-grade ML training infrastructure for blood diagnostic time series classification. Before that, I spent two years as a Data Scientist at [Vayana Network](https://vayana.com/), India's largest trade credit and supply chain financing fintech, where I built large-scale data infrastructure to streamline invoice processing, developed graph-based tools to uncover customer networks driving business growth, and led an NLP-based entity resolution system to deduplicate and enrich company records, improving data quality at scale.
+During my master's, I was a Machine Learning Intern at [Melio](https://melio.tech/), a blood diagnostics biotech startup, where I got to work at the intersection of MLOps and healthcare, rebuilding fragmented research workflows into a robust, production-grade ML training infrastructure for blood diagnostic time series classification. Before that, I spent two years as a Data Scientist at [Vayana Network](https://vayana.com/), India's largest trade credit and supply chain financing fintech, where I built large-scale data infrastructure to streamline invoice processing, developed graph-based tools to uncover customer networks driving business growth, and led an NLP-based entity resolution system to deduplicate and enrich company records, improving data quality at scale.
 
 My ML foundations go back to undergrad at [Ashoka University](https://www.ashoka.edu.in/), where I graduated with honors in CS with a minor in Physics, and did early research in privacy-preserving ML and adversarial attacks with Professors [Mahavir Jhawar](https://sites.google.com/site/homeofmahavir/Home) and [Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/).
 

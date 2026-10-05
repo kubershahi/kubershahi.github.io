@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-20
+date: 2026-06-12
 inline: true
 related_posts: false
 ---
 
-Wrapped up my Machine Learning internship at [Melio](https://melio.tech/) 🎉, where I rebuilt ML training infrastructure for blood diagnostic time series classification.
+Graduated with an MS in Computer Science (AI Specialization) from [UC San Diego](https://cse.ucsd.edu/) 🎓.

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-09-30
+date: 2025-12-20
 inline: true
 related_posts: false
 ---
 
-Released [CrossCheck](https://github.com/kubershahi/crosscheck) 🔎, a cross-document RAG + NLI system that verifies earnings-call claims against the same company-quarter's 10-Q/10-K filings.
+Wrapped up my Machine Learning internship at [Melio](https://melio.tech/) 🎉, where I rebuilt ML training infrastructure for blood diagnostic time series classification.
