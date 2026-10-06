@@ -1,19 +1,24 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = news_size %}
+    {% endif %}
+    {% assign news_visible = page.announcements.visible | default: 3 %}
+    {% assign news_shown = news_size | at_most: news_limit %}
+    {% if include.limit and page.announcements.scrollable and news_shown > news_visible %}
+      {% assign news_scroll = true %}
+    {% endif %}
     <div
       class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+      {% if news_scroll %}
+        data-visible-rows="{{ news_visible }}" style="max-height: 60vw; overflow-y: auto"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
@@ -28,6 +33,22 @@
         {% endfor %}
       </table>
     </div>
+    {% if news_scroll %}
+      <script>
+        (() => {
+          const box = document.currentScript.previousElementSibling;
+          const rows = box.querySelectorAll('tr');
+          const visible = Number(box.dataset.visibleRows);
+          const fit = () => {
+            const last = rows[visible - 1].getBoundingClientRect();
+            box.style.maxHeight = `${last.bottom - rows[0].getBoundingClientRect().top}px`;
+          };
+          fit();
+          window.addEventListener('resize', fit);
+          window.addEventListener('load', fit);
+        })();
+      </script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
