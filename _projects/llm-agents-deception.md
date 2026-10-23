@@ -5,5 +5,5 @@ description: A collaborative effort to evaluate LLM agent architectures in decep
 img: assets/img/llm-agents-deception.png
 importance: 2
 category: Machine Learning
-redirect: https://github.com/kubershahi/llm-agent-deception
+redirect: https://github.com/kubershahi/llm-agents-deception
 ---
