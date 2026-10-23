@@ -60,11 +60,6 @@ ninja.data = [{
           description: "Cross-document RAG that checks earnings-call claims against the same company-quarter’s SEC filings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/crosscheck/";
-            },},{id: "projects-synthesizing-dfas-using-rnns",
-          title: 'Synthesizing DFAs using RNNs',
-          description: "RNN-based model to automate the synthesis of Deterministic Finite Automata for formal language representation.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/dfas-rnn/";
             },},{id: "projects-efficient-english-maithili-translation",
           title: 'Efficient English-Maithili Translation',
           description: "A lightweight translation model for the Maithili language using efficient fine-tuning techniques",
@@ -84,7 +79,7 @@ ninja.data = [{
           title: 'LLM Agent Planning under Deception',
           description: "A collaborative effort to evaluate LLM agent architectures in deceptive text environments to understand the limits of multi-step planning and reasoning.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/llm-agents/";
+              window.location.href = "/projects/llm-agents-deception/";
             },},{id: "research-applied-cryptography",
           title: 'Applied Cryptography',
           description: "Independent study examining security vulnerabilities in OpenPGP and S/MIME email encryption, with analysis of real-world attacks on major email clients and proposed countermeasures.",
